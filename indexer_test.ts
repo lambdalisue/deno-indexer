@@ -1,7 +1,4 @@
-import {
-  assertEquals,
-  assertThrows,
-} from "https://deno.land/std@0.184.0/testing/asserts.ts";
+import { assertEquals, assertThrows } from "@std/assert";
 import { Indexer } from "./indexer.ts";
 import { InvalidMaxError } from "./errors.ts";
 
