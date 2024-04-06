@@ -1,7 +1,12 @@
 {
+  "name": "@lambdalisue/indexer",
+  "version": "0.0.0",
+  "exports": "./mod.ts",
   "tasks": {
-    "test": "deno test --unstable -A --parallel",
-    "check": "deno check --unstable $(find . -name '*.ts')",
-    "upgrade": "deno run -A https://deno.land/x/udd/main.ts $(find . -name '*.ts')"
+    "test": "deno test -A --parallel --shuffle",
+    "check": "deno check **/*.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^0.221.0"
   }
 }

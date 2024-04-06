@@ -1,11 +1,12 @@
 # indexer
 
-[![deno land](http://img.shields.io/badge/available%20on-deno.land/x-lightgrey.svg?logo=deno)](https://deno.land/x/indexer)
+[![jsr](https://img.shields.io/jsr/v/%40lambdalisue/indexer?logo=javascript&logoColor=white)](https://jsr.io/@lambdalisue/indexer)
+[![denoland](https://img.shields.io/github/v/release/lambdalisue/deno-indexer?logo=deno&label=denoland)](https://github.com/lambdalisue/deno-indexer/releases)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/indexer/mod.ts)
 [![Test](https://github.com/lambdalisue/deno-indexer/workflows/Test/badge.svg)](https://github.com/lambdalisue/deno-indexer/actions?query=workflow%3ATest)
 
-The `indexer` library is a [Deno][deno] module that provides a class called
-`Indexer`, which generates index numbers.
+The `indexer` library is a [Deno] module that provides a class called `Indexer`,
+which generates index numbers.
 
 ## Usage
 
@@ -13,7 +14,7 @@ To use the `Indexer` class, you first need to import it from the `indexer`
 module:
 
 ```typescript
-import { Indexer } from "https://deno.land/x/indexer/mod.ts";
+import { Indexer } from "@lambdalisue/indexer";
 ```
 
 You can then create a new instance of the `Indexer` class with an optional `max`
@@ -45,7 +46,4 @@ When the index number reaches the maximum value, it will be reset to 0 and the
 The code follows the MIT license written in [LICENSE](./LICENSE). Contributors
 need to agree that any modifications sent in this repository follow the license.
 
-[deno]: https://deno.land/
-[indexer]: https://github.com/indexer/indexer/blob/master/spec.md
-[deno-x-indexer]: https://deno.land/x/indexer
-[doc-deno-land-indexer]: https://doc.deno.land/https/deno.land/x/indexer/mod.ts
+[Deno]: https://deno.land/
