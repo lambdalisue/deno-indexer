@@ -8,6 +8,7 @@ on:
     - cron: "0 7 * * 0"
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   check:
